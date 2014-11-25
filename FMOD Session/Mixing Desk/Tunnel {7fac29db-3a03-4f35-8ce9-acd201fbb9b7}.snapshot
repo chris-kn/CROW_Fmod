@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.05.00">
     <object class="Snapshot" id="{7fac29db-3a03-4f35-8ce9-acd201fbb9b7}">
         <property name="name">
-            <value>Tunnel</value>
+            <value>tunnel</value>
         </property>
         <property name="runtimeSnapshotHandleID">
             <value>{73d0ce07-ae30-43f4-bb7a-d77704d66bda}</value>

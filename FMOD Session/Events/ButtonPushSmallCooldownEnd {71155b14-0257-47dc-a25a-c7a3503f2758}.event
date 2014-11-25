@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.05.00">
     <object class="Event" id="{71155b14-0257-47dc-a25a-c7a3503f2758}">
         <property name="name">
-            <value>ButtonPushSmallCooldownEnd</value>
+            <value>buttonPushSmallCooldownEnd</value>
         </property>
         <relationship name="folder">
             <destination>{d041f375-6b14-402c-bae9-c3626a677854}</destination>
@@ -27,6 +27,9 @@
         </relationship>
         <relationship name="timeline">
             <destination>{d4c7fcb4-ee2e-4564-845a-3eaa1ce82ed1}</destination>
+        </relationship>
+        <relationship name="banks">
+            <destination>{c013dd75-cb6c-401b-8959-a90e63f361eb}</destination>
         </relationship>
     </object>
     <object class="EventMixer" id="{55584ab6-0a27-4b13-9d0e-21a58a42d5b8}">
