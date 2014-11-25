@@ -204,6 +204,9 @@
         <property name="name">
             <value>RPM</value>
         </property>
+        <property name="seekSpeed">
+            <value>1200</value>
+        </property>
         <relationship name="modules">
             <destination>{095c6255-8bd8-4c59-aa69-7585af814556}</destination>
             <destination>{178f21ab-e89b-4317-b182-0089d75660a3}</destination>
@@ -1817,6 +1820,9 @@
         </property>
     </object>
     <object class="ThreeEQEffect" id="{ae35871f-6959-4a86-a9ec-5ab0e31aee77}">
+        <property name="bypass">
+            <value>true</value>
+        </property>
         <property name="midGain">
             <value>-32</value>
         </property>
@@ -1834,11 +1840,17 @@
         </property>
     </object>
     <object class="PluginEffect" id="{6759f7ce-124a-49de-a22d-c7a1b7e25831}">
+        <property name="bypass">
+            <value>false</value>
+        </property>
         <relationship name="plugin">
             <destination>{be9ea0f3-3e5e-4e3d-b52f-c27b382cb9bf}</destination>
         </relationship>
     </object>
     <object class="ParamEqEffect" id="{fbe7e7da-763b-44c0-9a48-173ec996c739}">
+        <property name="bypass">
+            <value>false</value>
+        </property>
         <property name="centreFrequency">
             <value>180</value>
         </property>
@@ -1850,11 +1862,17 @@
         </property>
     </object>
     <object class="HighpassEffect" id="{6f03fb78-86f7-43df-8d83-070a18b97d4a}">
+        <property name="bypass">
+            <value>false</value>
+        </property>
         <property name="cutoff">
             <value>70</value>
         </property>
     </object>
     <object class="ParamEqEffect" id="{43fd8359-2f0a-41f8-af4c-7563b29cb4f7}">
+        <property name="bypass">
+            <value>true</value>
+        </property>
         <property name="centreFrequency">
             <value>280</value>
         </property>
