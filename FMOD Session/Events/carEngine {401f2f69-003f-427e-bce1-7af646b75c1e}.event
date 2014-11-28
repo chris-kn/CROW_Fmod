@@ -207,6 +207,9 @@
         <property name="name">
             <value>RPM</value>
         </property>
+        <property name="seekSpeed">
+            <value>50</value>
+        </property>
         <relationship name="modules">
             <destination>{095c6255-8bd8-4c59-aa69-7585af814556}</destination>
             <destination>{178f21ab-e89b-4317-b182-0089d75660a3}</destination>
@@ -253,7 +256,7 @@
     </object>
     <object class="EventMixerMaster" id="{31abf8b9-b621-4452-9b0b-7de530cd560f}">
         <property name="volume">
-            <value>6</value>
+            <value>-1</value>
         </property>
         <property name="name">
             <value>Master</value>
@@ -1084,12 +1087,10 @@
     <object class="MixerBusEffectChain" id="{495770b5-6534-4efd-80f3-5ae9324b46a9}">
         <relationship name="effects">
             <destination>{ae35871f-6959-4a86-a9ec-5ab0e31aee77}</destination>
+            <destination>{eb5f2d16-bd73-40c2-99fe-de28825972a1}</destination>
             <destination>{6759f7ce-124a-49de-a22d-c7a1b7e25831}</destination>
-            <destination>{fbe7e7da-763b-44c0-9a48-173ec996c739}</destination>
-            <destination>{6f03fb78-86f7-43df-8d83-070a18b97d4a}</destination>
             <destination>{43fd8359-2f0a-41f8-af4c-7563b29cb4f7}</destination>
             <destination>{62ffe71b-499b-45fa-bb80-280149309214}</destination>
-            <destination>{6ded1243-8b08-41c6-8455-d3ffc7805a72}</destination>
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{bc8eaad5-b74c-4fc4-bfa1-9ffa6b1d22ca}"/>
@@ -1823,7 +1824,7 @@
     </object>
     <object class="ThreeEQEffect" id="{ae35871f-6959-4a86-a9ec-5ab0e31aee77}">
         <property name="bypass">
-            <value>true</value>
+            <value>false</value>
         </property>
         <property name="lowGain">
             <value>-2</value>
@@ -1844,39 +1845,25 @@
             <value>2</value>
         </property>
     </object>
+    <object class="MixerSend" id="{eb5f2d16-bd73-40c2-99fe-de28825972a1}">
+        <property name="level">
+            <value>-22</value>
+        </property>
+        <relationship name="return">
+            <destination>{3d1c5975-0a93-4901-89c1-aeda01b919b4}</destination>
+        </relationship>
+    </object>
     <object class="PluginEffect" id="{6759f7ce-124a-49de-a22d-c7a1b7e25831}">
         <property name="bypass">
-            <value>true</value>
+            <value>false</value>
         </property>
         <relationship name="plugin">
             <destination>{be9ea0f3-3e5e-4e3d-b52f-c27b382cb9bf}</destination>
         </relationship>
     </object>
-    <object class="ParamEqEffect" id="{fbe7e7da-763b-44c0-9a48-173ec996c739}">
-        <property name="bypass">
-            <value>true</value>
-        </property>
-        <property name="centreFrequency">
-            <value>180</value>
-        </property>
-        <property name="gain">
-            <value>3.5</value>
-        </property>
-        <property name="bandwidth">
-            <value>5</value>
-        </property>
-    </object>
-    <object class="HighpassEffect" id="{6f03fb78-86f7-43df-8d83-070a18b97d4a}">
-        <property name="bypass">
-            <value>true</value>
-        </property>
-        <property name="cutoff">
-            <value>140</value>
-        </property>
-    </object>
     <object class="ParamEqEffect" id="{43fd8359-2f0a-41f8-af4c-7563b29cb4f7}">
         <property name="bypass">
-            <value>true</value>
+            <value>false</value>
         </property>
         <property name="centreFrequency">
             <value>540</value>
@@ -1886,11 +1873,6 @@
         </property>
     </object>
     <object class="MixerBusFader" id="{62ffe71b-499b-45fa-bb80-280149309214}"/>
-    <object class="MixerSend" id="{6ded1243-8b08-41c6-8455-d3ffc7805a72}">
-        <relationship name="return">
-            <destination>{8f22a74a-9089-431d-a1bf-ab451d9c42c6}</destination>
-        </relationship>
-    </object>
     <object class="MixerBusFader" id="{d52d1564-4a61-40e6-b0d9-c2d7ac9bb8cf}"/>
     <object class="MixerBusFader" id="{0b2fdb7d-6947-49c3-9e78-21c55ceaa0c6}"/>
     <object class="MixerBusFader" id="{ec0f050a-bf7b-43ef-bf12-a9d3c1507ab2}"/>

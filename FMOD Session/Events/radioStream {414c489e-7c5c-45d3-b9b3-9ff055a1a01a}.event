@@ -216,7 +216,7 @@
             <value>0</value>
         </property>
         <property name="seekSpeed">
-            <value>0.89000004529953003</value>
+            <value>0.75000005960464478</value>
         </property>
         <relationship name="modules">
             <destination>{2efb887a-dc0a-43cf-89b7-d76f71582338}</destination>
@@ -1780,10 +1780,10 @@
     </object>
     <object class="AutomationPoint" id="{77302c75-149e-499b-a14e-54589906442b}">
         <property name="position">
-            <value>0.24999999441206455</value>
+            <value>0.26000001234933734</value>
         </property>
         <property name="value">
-            <value>11.956522</value>
+            <value>34.782608</value>
         </property>
         <property name="curveShape">
             <value>-0.333487928</value>

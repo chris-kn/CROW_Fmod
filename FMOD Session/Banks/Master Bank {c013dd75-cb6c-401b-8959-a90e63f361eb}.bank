@@ -21,7 +21,7 @@
             <destination>{e60bdcb4-eb5e-45d4-9ac9-e5a3666a447e}</destination>
         </relationship>
         <relationship name="activeCompressionSetting">
-            <destination>{d3fd767d-e83c-428c-9777-310099c9e309}</destination>
+            <destination>{e60bdcb4-eb5e-45d4-9ac9-e5a3666a447e}</destination>
         </relationship>
         <relationship name="buildHash">
             <destination>{03fbba64-1e2f-4c31-b591-f1a8960c2d28}</destination>
@@ -31,6 +31,9 @@
     <object class="LossyCompressionSetting" id="{d3fd767d-e83c-428c-9777-310099c9e309}">
         <property name="type">
             <value>Vorbis</value>
+        </property>
+        <property name="quality">
+            <value>100</value>
         </property>
     </object>
     <object class="PCMCompressionSetting" id="{c8bf288f-6b16-4e09-88b0-341c5b968a01}">

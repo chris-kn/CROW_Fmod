@@ -1,0 +1,48 @@
+{1f0161af-92c0-4fd4-a8fe-ba3cc54da889} event:/Dialog/IA/test
+{414c489e-7c5c-45d3-b9b3-9ff055a1a01a} event:/Music/Radio/radioStream
+{160e08d0-5a76-46d3-849e-d3d5ed08d064} event:/SFX/Buttons/ButtonSmall/ButtonPushBig/buttonPushBigCooldownEnd
+{df6bacb1-c92d-457e-87e5-98cb5758e806} event:/SFX/Buttons/ButtonSmall/ButtonPushBig/buttonPushBigDenied
+{ef89f1c2-ad67-4432-984f-c91b84918dbe} event:/SFX/Buttons/ButtonSmall/ButtonPushBig/buttonPushBigValidated
+{71155b14-0257-47dc-a25a-c7a3503f2758} event:/SFX/Buttons/ButtonSmall/ButtonPushSmall/buttonPushSmallCooldownEnd
+{aa5cc78e-95d2-4eac-9256-a83c0abcb6c3} event:/SFX/Buttons/ButtonSmall/ButtonPushSmall/buttonPushSmallDenied
+{c45dd82e-2276-4970-a1d9-8d6ff67c1643} event:/SFX/Buttons/ButtonSmall/ButtonPushSmall/buttonPushSmallValidated
+{a81914b7-f426-4091-a432-9a46ef165f69} event:/SFX/Buttons/ButtonSwitch/ButtonSwitchBig/buttonSwitchBigCooldownEnd
+{d5715d0d-a99a-44c4-831e-69ab748919e8} event:/SFX/Buttons/ButtonSwitch/ButtonSwitchBig/buttonSwitchBigDenied
+{3c3467bc-829f-4288-81e3-7d3544724e1e} event:/SFX/Buttons/ButtonSwitch/ButtonSwitchBig/buttonSwitchBigValidated
+{82bb9db4-a4e1-41b9-906b-be6a04609f37} event:/SFX/Buttons/ButtonSwitch/ButtonSwitchSmall/buttonSwitchSmallCooldownEnd
+{5257af6e-7581-4cd9-9c5b-d6560b6c8a70} event:/SFX/Buttons/ButtonSwitch/ButtonSwitchSmall/buttonSwitchSmallDenied
+{9b299948-a59d-4cbb-9dc8-fe89cccf3075} event:/SFX/Buttons/ButtonSwitch/ButtonSwitchSmall/buttonSwitchSmallValidated
+{401f2f69-003f-427e-bce1-7af646b75c1e} event:/SFX/Car Mechanics/carEngine
+{9a44b1f5-5b52-4f2b-a62e-59fdcafef455} event:/SFX/Car Mechanics/carSuspension
+{e7731633-719b-4aba-9f79-360f85b0f3ae} event:/SFX/Car Mechanics/carTyres
+{5b85d7d3-2730-46c4-8d2a-336a1580e3ff} event:/SFX/Gadgets/Duck/gadgetDuckExecute
+{0b203950-8506-40ec-89f8-7b4143a34df1} event:/SFX/Gadgets/Punch/gadgetPunchExecute
+{695f1d33-3215-47cc-b43e-4a1445ae84fe} event:/SFX/Gadgets/Rocket/gadgetRocketEngage
+{557cae6d-a5bd-41b9-9dfa-9554766746f0} event:/SFX/Gadgets/Rocket/gadgetRocketExecute2D
+{0661b8f3-2bd4-4d63-a019-b62d9a4d914b} event:/SFX/Gadgets/Rocket/gadgetRocketExecute3D
+{d8531747-c616-46e2-8d57-dd5359d01baf} event:/SFX/Gadgets/Rocket/gadgetRocketFail
+{5dae0af3-f1bf-41bf-8ce7-76839f89d221} event:/SFX/Gadgets/Rocket/gadgetRocketSuccess
+{0a41b58e-d2ca-4ac2-b142-d7a2c7b26f9d} event:/SFX/Gadgets/Rocket/gadgetRocketUI
+{45c5c436-33f0-461f-bd9f-229086ed5db8} event:/SFX/Gadgets/Spatula/gadgetSpatulaDisengage
+{33c45bd5-7200-4e90-893e-5ab60b7670c7} event:/SFX/Gadgets/Spatula/gadgetSpatulaEngage
+{c8bda1d2-3d4b-478f-b612-3a84d83070c1} event:/SFX/Gadgets/Spatula/gadgetSpatulaExecute
+{948909f0-1ea8-44b7-b23c-d50034c0ddde} event:/SFX/Gadgets/Spatula/gadgetSpatulaFail
+{99e022c6-a230-4593-8b64-83792cbbfce7} event:/SFX/Gadgets/Spatula/gadgetSpatulaSuccess
+{9eddb661-d222-4c3a-a2b7-418281daf685} bus:/
+{8f22a74a-9089-431d-a1bf-ab451d9c42c6} bus:/Reverb
+{3d1c5975-0a93-4901-89c1-aeda01b919b4} bus:/ReverbCar
+{9438af85-84c3-4034-b36c-68c850361606} bus:/ReverbDistance
+{d1479955-75bd-4e24-926a-1f56d5b319df} bus:/ReverbLong
+{57bf8525-e79a-45d1-8147-30fa4ceeefcf} bus:/PreMaster
+{d724a05d-a498-4baf-bc1c-035b7336fb24} bus:/PreMaster/Music
+{a5315be3-c863-40ae-99a4-03213a812020} bus:/PreMaster/Music/Radio
+{19d7ff76-1a9b-4004-a8dd-1cfd50458ecf} bus:/PreMaster/SFX
+{d10dbd9c-52ae-4ca2-bb14-2824a61b6b84} bus:/PreMaster/SFX/Buttons
+{259d1e00-7bd7-4ad3-a427-1773f283a7ec} bus:/PreMaster/SFX/Car Mechanics
+{cde07028-e1be-405b-99f3-809612057ec3} bus:/PreMaster/SFX/Gadgets
+{bae64277-30b0-4673-b799-66424d74d75a} bus:/PreMaster/Voice
+{5febb3ba-4c03-49fd-8099-eb4fc014fc4c} snapshot:/voiceOn
+{4a54c850-1015-4d1d-8d7c-d5eab94626d1} snapshot:/punchEffect
+{c8220165-8b35-496b-831e-23124620e560} snapshot:/radioOn
+{7fac29db-3a03-4f35-8ce9-acd201fbb9b7} snapshot:/tunnel
+{c013dd75-cb6c-401b-8959-a90e63f361eb} bank:/Master Bank
