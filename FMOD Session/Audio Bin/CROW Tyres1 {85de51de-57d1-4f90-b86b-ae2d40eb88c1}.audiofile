@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{85de51de-57d1-4f90-b86b-ae2d40eb88c1}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>9.2583219954648523</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>0</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/CROW Tyres1 {782d9ac8-cff6-4e51-9121-e2c05b5579cf}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{07faabf9-94c7-4e83-83d3-e84c83f3885a}</destination>
+        </relationship>
+    </object>
+</objects>

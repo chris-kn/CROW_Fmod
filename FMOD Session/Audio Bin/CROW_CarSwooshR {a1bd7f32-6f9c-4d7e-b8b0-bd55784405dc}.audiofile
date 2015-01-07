@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{a1bd7f32-6f9c-4d7e-b8b0-bd55784405dc}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.93517006802721092</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>0</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/CROW_CarSwooshR {096a77df-15d8-42cc-b1c1-d9d9f749fefd}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{07faabf9-94c7-4e83-83d3-e84c83f3885a}</destination>
+        </relationship>
+    </object>
+</objects>

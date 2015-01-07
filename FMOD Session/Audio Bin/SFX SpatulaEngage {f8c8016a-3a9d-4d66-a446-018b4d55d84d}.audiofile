@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{f8c8016a-3a9d-4d66-a446-018b4d55d84d}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>1.5335827664399093</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>0</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/SFX SpatulaEngage {97a24157-d25f-4535-81b2-a1fe127d195a}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{07faabf9-94c7-4e83-83d3-e84c83f3885a}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{bfc2162e-5f9e-470b-8c8f-ea9d52f680c4}">
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.9351666666666667</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>0</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/SFX CarSwoosh1 {7e7b3102-e725-4500-9aed-606d89014d5e}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{07faabf9-94c7-4e83-83d3-e84c83f3885a}</destination>
+        </relationship>
+    </object>
+</objects>

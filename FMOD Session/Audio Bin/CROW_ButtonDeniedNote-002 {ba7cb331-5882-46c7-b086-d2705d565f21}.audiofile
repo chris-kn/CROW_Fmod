@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{ba7cb331-5882-46c7-b086-d2705d565f21}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>1.2619047619047619</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>0</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/CROW_ButtonDeniedNote-002 {ebca7d4a-ce97-473f-bdf9-f98e8b197dd9}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{07faabf9-94c7-4e83-83d3-e84c83f3885a}</destination>
+        </relationship>
+    </object>
+</objects>

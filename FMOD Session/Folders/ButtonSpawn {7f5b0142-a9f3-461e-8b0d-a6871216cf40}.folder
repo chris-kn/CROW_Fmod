@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="Folder" id="{7f5b0142-a9f3-461e-8b0d-a6871216cf40}">
+        <property name="name">
+            <value>ButtonSpawn</value>
+        </property>
+        <relationship name="folder">
+            <destination>{e6f807a0-a226-469b-b445-2e8650b78239}</destination>
+        </relationship>
+    </object>
+</objects>

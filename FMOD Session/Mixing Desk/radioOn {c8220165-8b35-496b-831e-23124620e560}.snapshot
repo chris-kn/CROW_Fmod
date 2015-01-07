@@ -26,9 +26,7 @@
             <destination>{68ebf193-cc69-4641-91e1-2985bf615123}</destination>
         </relationship>
         <relationship name="snapshotProperties">
-            <destination>{52e63557-c3ae-4feb-ad30-e22dcf67c36d}</destination>
             <destination>{68ed8ef3-a8bd-456c-bb1b-dd0df4247420}</destination>
-            <destination>{8645176e-be0b-4096-b277-0b1f7e81d92c}</destination>
             <destination>{90f76165-49be-41d9-9fda-b0a18bdce221}</destination>
             <destination>{bca32d06-5d93-479b-9a86-a5cdb3011eb4}</destination>
         </relationship>
@@ -45,37 +43,15 @@
     <object class="MarkerTrack" id="{eaabac75-4bdb-40a0-b0cd-d288e32b71b1}"/>
     <object class="Timeline" id="{261fb78e-0848-4f87-8412-f248a761a9d3}"/>
     <object class="SnapshotMasterTrack" id="{68ebf193-cc69-4641-91e1-2985bf615123}"/>
-    <object class="SnapshotProperty" id="{52e63557-c3ae-4feb-ad30-e22dcf67c36d}">
-        <property name="propertyName">
-            <value>cutoff</value>
-        </property>
-        <property name="value">
-            <value>800</value>
-        </property>
-        <relationship name="automatableObject">
-            <destination>{88380023-879c-407d-a342-d70a59f8a1c6}</destination>
-        </relationship>
-    </object>
     <object class="SnapshotProperty" id="{68ed8ef3-a8bd-456c-bb1b-dd0df4247420}">
         <property name="propertyName">
             <value>volume</value>
         </property>
         <property name="value">
-            <value>-2.20000005</value>
+            <value>0.200000003</value>
         </property>
         <relationship name="automatableObject">
             <destination>{a5315be3-c863-40ae-99a4-03213a812020}</destination>
-        </relationship>
-    </object>
-    <object class="SnapshotProperty" id="{8645176e-be0b-4096-b277-0b1f7e81d92c}">
-        <property name="propertyName">
-            <value>cutoff</value>
-        </property>
-        <property name="value">
-            <value>8500</value>
-        </property>
-        <relationship name="automatableObject">
-            <destination>{df6963d2-c093-40c0-84a3-3c22c0eef4d4}</destination>
         </relationship>
     </object>
     <object class="SnapshotProperty" id="{90f76165-49be-41d9-9fda-b0a18bdce221}">
@@ -83,7 +59,7 @@
             <value>volume</value>
         </property>
         <property name="value">
-            <value>-5</value>
+            <value>-8.60000038</value>
         </property>
         <relationship name="automatableObject">
             <destination>{3d1c5975-0a93-4901-89c1-aeda01b919b4}</destination>
@@ -94,7 +70,7 @@
             <value>volume</value>
         </property>
         <property name="value">
-            <value>-11.1999998</value>
+            <value>-7.80000019</value>
         </property>
         <relationship name="automatableObject">
             <destination>{259d1e00-7bd7-4ad3-a427-1773f283a7ec}</destination>

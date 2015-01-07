@@ -18,6 +18,7 @@
         <relationship name="effects">
             <destination>{b055a623-bf70-48fc-943f-978eaa247f2a}</destination>
             <destination>{c7a922b0-2ff0-452e-aed5-c2dc6f09ce2d}</destination>
+            <destination>{98a18f1f-b72a-4ef9-8cc8-17f55e45f67a}</destination>
             <destination>{b23d19e3-af69-4c1f-9db4-36461c5fe238}</destination>
             <destination>{88380023-879c-407d-a342-d70a59f8a1c6}</destination>
             <destination>{28582e18-2d5a-497b-896c-ae113d0742db}</destination>
@@ -26,6 +27,9 @@
     <object class="MixerBusPanner" id="{ced87aa1-38b4-426a-a7ae-2164445d4e2a}"/>
     <object class="MixerBusFader" id="{b055a623-bf70-48fc-943f-978eaa247f2a}"/>
     <object class="ConvolutionReverbEffect" id="{c7a922b0-2ff0-452e-aed5-c2dc6f09ce2d}">
+        <property name="bypass">
+            <value>true</value>
+        </property>
         <property name="impulseFilePath">
             <value>C:/Users/Christopher/Documents/REAPER Media/CROW Gadgets/CROW Gadgets/Exports/Gadgets Full/IR Mercedes.wav</value>
         </property>
@@ -42,6 +46,29 @@
             <destination>{5af76091-104a-4b1b-8c3d-d1a011c59295}</destination>
         </relationship>
     </object>
+    <object class="SFXReverbEffect" id="{98a18f1f-b72a-4ef9-8cc8-17f55e45f67a}">
+        <property name="decayTime">
+            <value>3800</value>
+        </property>
+        <property name="lateDelay">
+            <value>44</value>
+        </property>
+        <property name="HFDecayRatio">
+            <value>77.5</value>
+        </property>
+        <property name="diffusion">
+            <value>59</value>
+        </property>
+        <property name="lowShelfGain">
+            <value>12</value>
+        </property>
+        <property name="wetLevel">
+            <value>0</value>
+        </property>
+        <property name="dryLevel">
+            <value>-80</value>
+        </property>
+    </object>
     <object class="PluginEffect" id="{b23d19e3-af69-4c1f-9db4-36461c5fe238}">
         <relationship name="plugin">
             <destination>{2a1be971-42d4-454e-a633-30c1457647b2}</destination>
@@ -52,7 +79,10 @@
             <value>false</value>
         </property>
         <property name="cutoff">
-            <value>380</value>
+            <value>90</value>
+        </property>
+        <property name="resonance">
+            <value>2.14999986</value>
         </property>
     </object>
     <object class="HighpassEffect" id="{28582e18-2d5a-497b-896c-ae113d0742db}">
@@ -91,7 +121,6 @@
         <property name="name">
             <value>Impulse Respons</value>
         </property>
-        <property name="defaultValue"/>
         <property name="dataType">
             <value>0</value>
         </property>
@@ -113,7 +142,7 @@
             <value>0</value>
         </property>
         <property name="value">
-            <value>-3.5</value>
+            <value>-2</value>
         </property>
         <relationship name="automationScale">
             <destination>{ced97180-e2be-41a8-96b9-8bd6e16a309c}</destination>
@@ -133,7 +162,7 @@
             <value>-80</value>
         </property>
         <property name="value">
-            <value>-80</value>
+            <value>-76</value>
         </property>
         <relationship name="automationScale">
             <destination>{a8c39656-a502-45bd-820c-beebd7cea54f}</destination>
